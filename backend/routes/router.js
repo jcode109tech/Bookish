@@ -12,28 +12,28 @@ const router = express.Router();
 
 
 //user routes
-router.get('/users/', getAllUsers);
+router.get('/users/',protect, getAllUsers);
 router.get('/users/:id',protect, getUserById);
 router.put('/users/:id', protect, updateUser);
 router.delete('/users/:id',protect,  deleteUser);
 
 // Book routes
-router.get('/books', getAllBooks);
+router.get('/books',protect, getAllBooks);
 router.post('/books', protect, addBook);
 router.put('/books/:id', protect, updateBook);
 router.delete('/books/:id', protect, deleteBook);
 
 // Cart routes
-router.get('/cart', getUserCart);
-router.post('cart', protect, addItemToCart);
+router.get('/cart', protect, getUserCart);
+router.post('/cart', protect, addItemToCart);
 router.delete('/cart/:bookId', protect, removeItemFromCart);
 
 // Order routes
-router.post('/orders', placeOrder);
+router.post('/orders',protect, placeOrder);
 router.get('/orders', protect, getUserOrders);
 
 // Payment routes
-router.post('/payment', processPayment);
+router.post('/payment',protect, processPayment);
 
 // Error handling middleware
 router.use(errorHandler);
