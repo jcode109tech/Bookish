@@ -144,9 +144,3 @@ All routes are protected with authentication middleware, and the application use
 {
   "message": "ROUTE NOT FOUND"
 }
-
-## links
-
-### slides:
-- **https://docs.google.com/presentation/d/1t1DhoaxQjSbgomh87x4Re_NBfNlV1eY5mzTZ_VmzzUA/edit#slide=id.gc6f80d1ff_0_27 **
-### video demo:
