@@ -4,7 +4,7 @@ Found of Learning! Inspire curiosity, spark imagination, deepen understanding.
 # MERN Bookstore Application
 
 ## Overview
-The **MERN Bookstore Application** is a [full-stack] Backend web application designed to manage a collection of books. It features user authentication, authorization, and logging capabilities, built using the **MERN stack**: MongoDB, Express, React, and Node.js.
+The **ME"R"N Bookstore Application** is a [full-stack] Backend web application designed to manage a collection of books. It features user authentication, authorization, and logging capabilities, built using the **MERN stack**: MongoDB, Express, React, and Node.js.
 
 ## Features
 - **User Authentication & Authorization**: Secure user registration, login, and role-based access control.
@@ -14,12 +14,6 @@ The **MERN Bookstore Application** is a [full-stack] Backend web application des
 - **Responsive Design**: Optimized UI for mobile and desktop devices.
 
 ## Technology Stack
-### Frontend:
-- **React**: JavaScript library for building user interfaces.
-- **React Router**: Client-side routing.
-- **Redux (optional)**: State management.
-- **CSS / SCSS**: Styling the application.
-
 ### Backend:
 - **Node.js**: JavaScript runtime environment.
 - **Express.js**: Web framework for Node.js.
@@ -31,6 +25,8 @@ The **MERN Bookstore Application** is a [full-stack] Backend web application des
 - **bcrypt**: For password hashing.
 - **Winston / Morgan**: Logging libraries.
 - **Dotenv**: Environment variable management.
+- **Crypto**: Generating random numbers.
+- **Multer**: File uploads.
 
 ## Prerequisites
 - **Node.js** (v14+)
